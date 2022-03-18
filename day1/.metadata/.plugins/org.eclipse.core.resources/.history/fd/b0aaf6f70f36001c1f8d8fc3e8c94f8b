@@ -1,0 +1,26 @@
+package day4;
+
+class Balance {
+	private double balance;
+	  
+	public double getbalance() {
+		
+		return balance;
+	}
+	void  setbalance(double amount) {
+		
+		balance=this.balance+amount;
+		
+	}
+	
+}
+
+
+public class Encap {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

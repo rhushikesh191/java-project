@@ -1,0 +1,26 @@
+package day3;
+ class faculty_1 {
+	 void m1 () {
+		int salary=3000; 
+		System.out.println("salary:"+salary);
+	 }
+ }
+ class Bonus extends Faculty_1 {
+	  void m2() {
+		  int bonus=2000;
+		  System.out.println("bonus:"+bonus);
+	  }
+	 
+ }
+
+public class Faculty {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+     Bonus obj= new Bonus();
+     obj.m2();
+    obj.m1();
+    
+	}
+
+}

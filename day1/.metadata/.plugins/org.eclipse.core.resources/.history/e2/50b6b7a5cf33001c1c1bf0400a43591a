@@ -1,0 +1,27 @@
+package day3;
+class Salary{
+float gsal=0;
+float sal=5000;
+
+}
+class Hra extends Salary{
+	float hra=500;
+}
+class Da extends Hra{
+	float da=300;
+	
+}
+class Bonus extends Da{
+	float bonus=1000;
+}
+
+
+public class Multilevel_inheritence {
+  public static void main(String[] args)
+  {
+	 Bonus obj=new Bonus();
+	 obj.gsal=obj.bonus+obj.da+obj.hra+obj.sal;
+	 System.out.println("total sal:"+obj.gsal);
+	  
+  }
+}

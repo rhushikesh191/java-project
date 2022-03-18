@@ -1,0 +1,32 @@
+package day1_1;
+
+public class test1{
+	
+	public static void main(String args[]) {
+		
+		System.out.println("my world ");
+	}
+	
+	
+	
+	
+}
+
+
+
+
+
+
+
+/*
+public class daty1_1 {
+
+	public static void main(String[] args) {
+		
+		System.out.println("hello world");
+		// TODO Auto-generated method stub
+
+	}
+
+}
+*/
